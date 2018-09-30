@@ -1,0 +1,28 @@
+#This is a comment and such lines are ignored
+
+#In the lines with actual data, ': ' is important and the data following it
+#The Text preceding it is ignored
+
+#Spreadsheet linked to both the Forms
+#Example: The section in the brackets /d/[...] https://docs.google.com/spreadsheets/d/10Mrb6Up7q_ZtgJmb814JaHsconiOG_x76K5__u6h9SA
+Spreadsheet ID: 10Mrb6Up7q_ZtgJmb814JaHsconiOG_x76K5__u6h9SA
+
+#Sheet Name linked to Student Form
+Push Request Sheet: Form responses 1
+
+#Roll Number Column ID (Successive two columns must contain the Name and Cribs respectively)
+Column: B
+
+#Sheet Name linked to TA Form
+Pop Request Sheet: Form responses 2
+
+#Number of Queues (Based on TAs)
+Queue Count: 6
+
+#Headers [Count equal to Queue Count]
+1: Question 1
+2: Question 2
+3: Question 3(a, b)
+4: Question 3(c, d)
+5: Question 4(a - h)
+6: Question 4(i - m)
